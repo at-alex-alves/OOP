@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+    ts_oop:
+        build: .
+        command: node build/test.js
